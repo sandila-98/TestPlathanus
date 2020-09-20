@@ -7,6 +7,11 @@ app.listen(3000, function() {
 });
 
 app.post('/upload',function(req, res) {
-    console.log(res);
+    alert('foi');
+    var image = res;
+    console.log(image);
+    var request = req;
+    console.log(request);
+
     return res.status(200);
 });

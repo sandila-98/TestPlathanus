@@ -1,0 +1,82 @@
+
+.tituloSlide {
+    color: #ffffff;
+    font-size: 75px
+}
+.imageSlide{
+    width : 100%;
+    height: 90%;
+    position: absolute;
+    z-index: 1;
+}
+.divSlide{
+    margin-top: 12%;
+    margin-bottom: 4%;
+    z-index: 10 
+}
+.bottonSlide{
+    border-radius: 50px;
+    border: 1px solid #54d154;
+    background-color: #54d154;
+    margin-top: 4%; 
+    font-size:25px
+}
+.inputSlide{
+    margin-top:40%;
+    border-radius:50px;
+    border: none;
+    background-color:rgba(255, 255, 255, .4);
+    font-size:18px;
+    color: rgba(0, 0, 0, .8)
+}
+.navHeader{
+    position: absolute;
+    z-index: 20;
+    width: 100%
+}
+.divHeader{
+    border: none;
+    border-radius:50px;
+    background-color:rgba(255, 255, 255, .4);
+    color:#ffffff
+}
+.inputHeader {
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%
+}
+.inputHeader:focus {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.iconHeader{
+    padding: 0;
+    text-align: center;
+}
+
+.tituloCard {
+    color: rgba(0, 0, 0, .5);
+}
+.pCard{
+    color:rgba(0, 0, 0, .6)
+}
+.iconCard{
+    color:#54d154; 
+    font-size: 100px; 
+    margin-bottom:5%
+}
+.buttonCard{
+    border-radius:50px; 
+    border:1px solid #54d154; 
+    background-color:#54d154
+}
+.hrCard{
+    border: 2px solid #999999;
+    border-radius:2px; 
+    margin: 10px 910px
+}
+.colCard{
+    margin-bottom: 7%;
+}

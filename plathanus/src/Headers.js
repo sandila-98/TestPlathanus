@@ -4,12 +4,15 @@ import {
     NavbarBrand,
     Input,
     Col,
+    Row
   } from 'reactstrap';
+  import {BsSearch} from 'react-icons/bs';
+
 
   const Headers = (props) => {
     return (
       <div>
-            <Navbar color='transparent' expand='md' style={{position:'absolute', zIndex:'20', width:'100%'}}>
+            <Navbar expand='md' color='transparent' className='navHeader'>
                 <Col sm={1} className='text-center'>
                     <NavbarBrand href='/' className='text-light'>Home</NavbarBrand>
                 </Col>
@@ -28,7 +31,16 @@ import {
                 </Col>
 
                 <Col sm={2}>
-                    <Input style={{borderRadius:'70px', backgroundColor:'rgba(255, 255, 255, .4)', border:'1px solid rgba(255, 255, 255, .4)', color:'#ffffff'}} placeholder='Search...' />
+                    <div className='divHeader'>
+                        <Row>
+                            <Col sm={9}>
+                                <Input className="inputHeader" placeholder='Search...' />  
+                            </Col>
+                            <Col sm={3}>
+                                <BsSearch className="iconHeader mt-2" /> 
+                            </Col>
+                        </Row>
+                    </div>
                 </Col>
             </Navbar>
       </div>
