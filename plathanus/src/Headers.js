@@ -12,22 +12,22 @@ import {
   const Headers = (props) => {
     return (
       <div>
-            <Navbar expand='md' color='transparent' className='navHeader'>
+            <Navbar color='transparent' className='navHeader'>
                 <Col sm={1} className='text-center'>
-                    <NavbarBrand href='/' className='text-light'>Home</NavbarBrand>
+                    <NavbarBrand className='text-light'>Home</NavbarBrand>
                 </Col>
                 <Col sm={1} className='text-center'>
-                    <NavbarBrand href='' className='text-light'>What we do?</NavbarBrand>
+                    <NavbarBrand className='text-light'>What we do?</NavbarBrand>
                 </Col>
                 <Col sm={1} className='text-center'>
-                    <NavbarBrand href='' className='text-light'>Testimonial</NavbarBrand>
+                    <NavbarBrand className='text-light'>Testimonial</NavbarBrand>
                 </Col> 
                 <Col sm={1} className='text-center'> 
-                    <NavbarBrand href='' className='text-light'>Contact Us</NavbarBrand>
+                    <NavbarBrand className='text-light'>Contact Us</NavbarBrand>
                 </Col>
                 
                 <Col sm={6} className='text-center'>
-                    <NavbarBrand href='' className='text-light'>PLATHANUS</NavbarBrand>
+                    <NavbarBrand className='text-light'>PLATHANUS</NavbarBrand>
                 </Col>
 
                 <Col sm={2}>

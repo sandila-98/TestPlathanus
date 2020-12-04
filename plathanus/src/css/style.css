@@ -1,13 +1,13 @@
 
 .tituloSlide {
     color: #ffffff;
-    font-size: 75px
+    font-size: 75px;
+    z-index: 99;
 }
 .imageSlide{
-    width : 100%;
-    height: 90%;
+    width: 100%;
     position: absolute;
-    z-index: 1;
+    z-index: 98;
 }
 .divSlide{
     margin-top: 12%;
@@ -19,7 +19,8 @@
     border: 1px solid #54d154;
     background-color: #54d154;
     margin-top: 4%; 
-    font-size:25px
+    font-size:25px;
+    z-index: 999;
 }
 .inputSlide{
     margin-top:40%;
@@ -31,7 +32,7 @@
 }
 .navHeader{
     position: absolute;
-    z-index: 20;
+    z-index: 999;
     width: 100%
 }
 .divHeader{
@@ -56,8 +57,15 @@
     text-align: center;
 }
 
+.divTitulo {
+    margin-top: 20%;
+    margin-bottom: 20%;
+    z-index: 999;
+}
+
 .tituloCard {
     color: rgba(0, 0, 0, .5);
+    margin-top: 4%;
 }
 .pCard{
     color:rgba(0, 0, 0, .6)
@@ -74,8 +82,9 @@
 }
 .hrCard{
     border: 2px solid #999999;
-    border-radius:2px; 
-    margin: 10px 910px
+    border-radius:2px;
+    margin-left: 48%;
+    margin-right: 48%; 
 }
 .colCard{
     margin-bottom: 7%;

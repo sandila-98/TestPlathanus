@@ -4,7 +4,6 @@ import {FaCameraRetro} from 'react-icons/fa';
 import {FaBriefcase} from 'react-icons/fa';
 import {FaTachometerAlt} from 'react-icons/fa';
 
-
 const Article = (props) => {
     return (
         <div>
