@@ -4,29 +4,28 @@ import {
     NavbarBrand,
     Input,
     Col,
-    Row
+    Row,
   } from 'reactstrap';
   import {BsSearch} from 'react-icons/bs';
 
 
   const Headers = (props) => {
     return (
-      <div>
-            <Navbar color='transparent' className='navHeader'>
-                <Col sm={1} className='text-center'>
-                    <NavbarBrand className='text-light'>Home</NavbarBrand>
+        <Navbar color='transparent' className='navHeader'>
+                <Col sm={2} className='text-center'>
+                    <NavbarBrand className='text-light' href="#">Home</NavbarBrand>
                 </Col>
-                <Col sm={1} className='text-center'>
-                    <NavbarBrand className='text-light'>What we do?</NavbarBrand>
+                <Col sm={2} className='text-center'>
+                    <NavbarBrand className='text-light' href="#">What we do?</NavbarBrand>
                 </Col>
-                <Col sm={1} className='text-center'>
-                    <NavbarBrand className='text-light'>Testimonial</NavbarBrand>
+                <Col sm={2} className='text-center'>
+                    <NavbarBrand className='text-light' href="#">Testimonial</NavbarBrand>
                 </Col> 
-                <Col sm={1} className='text-center'> 
-                    <NavbarBrand className='text-light'>Contact Us</NavbarBrand>
+                <Col sm={2} className='text-center'> 
+                    <NavbarBrand className='text-light' href="#">Contact Us</NavbarBrand>
                 </Col>
                 
-                <Col sm={6} className='text-center'>
+                <Col sm={2} className='text-center'>
                     <NavbarBrand className='text-light'>PLATHANUS</NavbarBrand>
                 </Col>
 
@@ -42,8 +41,7 @@ import {
                         </Row>
                     </div>
                 </Col>
-            </Navbar>
-      </div>
+        </Navbar>
     );
   }
 

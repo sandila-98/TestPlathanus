@@ -84,7 +84,7 @@ const Article = (props) => {
                 </Col>
             
             </Row>
-        <hr style={{border: '2px solid #999999'}}/>       
+        <hr style={{border: '2px solid #999999'}}/>
         </div>
     );
 }

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Form, Input } from 'reactstrap';
 import Headers from './Headers';
 import Slide from './Slide';
 import Article from './Article';
